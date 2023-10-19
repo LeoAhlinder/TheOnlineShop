@@ -1,5 +1,6 @@
 import React from "react";
 import "./itemsStyle.css"
+import pic from "../pictures/test.webp"
 
 const Items = () =>{
 
@@ -10,16 +11,38 @@ const Items = () =>{
     return(
         <div className="itemsContainer">
             <ul className="itemGrid" >
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
-                    <li className="gridItem">test</li>
+                    <li className="gridItem">
+                        <div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div>
+                    </li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
+                    <li className="gridItem"><div className="book">
+                            <img src={pic} className="bookCover" />
+                        </div></li>
 
             </ul>
             {/* {clothingList.map((item,index) =>(
