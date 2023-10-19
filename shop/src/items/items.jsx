@@ -1,6 +1,6 @@
 import React from "react";
 import "./itemsStyle.css"
-import pic from "../pictures/test.webp"
+// import pic from "../pictures/UTTIMATE.png"
 
 const Items = () =>{
 
@@ -13,35 +13,35 @@ const Items = () =>{
             <ul className="itemGrid" >
                     <li className="gridItem">
                         <div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div>
                     </li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
                     <li className="gridItem"><div className="book">
-                            <img src={pic} className="bookCover" />
+                            
                         </div></li>
 
             </ul>

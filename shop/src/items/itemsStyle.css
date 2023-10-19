@@ -41,6 +41,7 @@ body{
     color: black;
     padding: 0.5rem;
     height: 20rem;
+    background-color: white;
 }
 .bookCover{
     width: 100%;
