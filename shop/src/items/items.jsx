@@ -16,33 +16,42 @@ const Items = () =>{
                             
                         </div>
                     </li>
-                    <li className="gridItem"><div className="book">
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
+                        </div>
+                    </li>
+                    <li className="gridItem">
+                        <div className="book">
                             
-                        </div></li>
-                    <li className="gridItem"><div className="book">
-                            
-                        </div></li>
-                    <li className="gridItem"><div className="book">
-                            
-                        </div></li>
+                        </div>
+                    </li>
+                    
 
             </ul>
             {/* {clothingList.map((item,index) =>(
