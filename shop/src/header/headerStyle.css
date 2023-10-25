@@ -1,0 +1,9 @@
+#centerText{
+    text-align: center;
+}
+
+#homePage{
+    background-image: url("../pictures/mainbackground.webp");
+    margin:0;
+    padding: 0;
+}
