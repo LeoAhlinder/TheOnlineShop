@@ -1,7 +1,11 @@
 import React from "react";
 import "./itemsStyle.css"
 import jeans from "../pictures/jeans.jpg"
-import orangeHoodie from "../pictures/orange_hoodie.jpg"
+import orangeHoodie from "../pictures/orange_hoodie.webp"
+import yellowBeanie from "../pictures/yellowbeanie.jpg"
+import graycap from "../pictures/graycap.png"
+import blacktshirt from "../pictures/blacktshirt.jpg"
+import seventhisrt from "../pictures/705tshirt.jpg"
 
 const Items = () =>{
 
@@ -11,62 +15,35 @@ const Items = () =>{
 
     return(
         <div className="itemsContainer">
-            <ul className="itemGrid" >
-                    <li className="gridItemBig">
-                        <div className="book">
-                            <img src={jeans} className="pic" alt="" />
-                        </div>
-                    </li>
-   
-                    <li className="gridItemBig">
-                        <div className="book">
-                        <img src={orangeHoodie} className="pic" alt="" />
+            <ul className="itemGrid">
+            <div className="row">
+                <div className="column">
+                    <img src={graycap}/>
+                    <img src={jeans}/>
+                    <img src={blacktshirt}/>
+                </div>
+                <div className="column">
+                    <img src={yellowBeanie}/>
+                    <img src={orangeHoodie}/>
+                    <img src={jeans}/>
 
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    <li className="gridItemSmall">
-                        <div className="book">
-                            
-                        </div>
-                    </li>
-                    
+                </div>
+                <div className="column">
+                    <img src={seventhisrt}/>
+                    <img src={jeans}/>
+                    <img src={jeans}/>
+                </div>
+                <div className="column">
+                    <img src={jeans}/>
+                    <img src={jeans}/>
+                    <img src={jeans}/>
+                </div>
+                
+                
+
+            </div>
 
             </ul>
-            {/* {clothingList.map((item,index) =>(
-                <ul className="itemGrid" key={index}>
-                    <li className="gridItemSmall">{item.Type}</li>
-                </ul>
-            ))} */}
         </div>
     )
 }
