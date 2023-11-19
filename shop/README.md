@@ -1,13 +1,22 @@
-# Getting Started with Create React App
+## Running the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Copy the project to your computer, via github desktop or git, etc.
 
-## Available Scripts
+```
+git clone https://github.com/LeoAhlinder/TheOnlineShop.git
+```
 
-In the project directory, you can run:
+Then when the project is copied open the terminal and type:
+```
+npm install
+```
 
-### `npm start`
+To start the project type:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm start
+```
+
+PS: Make sure you are in the shop folder.
+
 
