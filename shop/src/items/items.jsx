@@ -10,9 +10,6 @@ import seventhisrt from "../pictures/705tshirt.jpg"
 const Items = () =>{
 
     const clothingList = require("./itemsData").clothingList
-
-    console.log(clothingList)
-
     return(
         <div className="itemsContainer">
             <ul className="itemGrid">
